@@ -16820,7 +16820,10 @@ Made by Themanoid
   position: relative;
   z-index: 1;
 }
-
+.img_shadow{
+    margin:20px;
+    box-shadow: rgba(0,0,0,.1) 0 0 20px;
+}
 .slider .slides .slide h1, .slider .slides .slide h2, .slider .slides .slide h3, .slider .slides .slide h4, .slider .slides .slide h5, .slider .slides .slide h6, .slider .slides .slide p, .slider .slides .slide a, .slider .slides .slide span {
   -webkit-transition: opacity .6s;
   transition: opacity .6s;
@@ -16859,7 +16862,7 @@ Made by Themanoid
   left: 0;
   right: 0;
   bottom: 0;
-  background: #000;
+  background: rgba(255,255,255,.9);
   z-index: 9999;
   display: none;
 }
@@ -16892,7 +16895,7 @@ Made by Themanoid
 }
 
 #lightbox .controls {
-  background: #222;
+  background: rgba(0,0,0,.5);
   width: 40px;
   height: 120px;
   position: absolute;
