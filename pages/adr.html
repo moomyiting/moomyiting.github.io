@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Estelle Portfolio - Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../css/core.css">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <link rel="stylesheet" type="text/css" href="../css/custom.css">
+    <!-- inject:css-->
+    <!-- endinject -->
+    <link rel="icon" type="image/png" href="../favicon.png?version=1">
+    <script src="../js/assets/jquery.js"></script>
+  </head>
+  <body class="smooth-transition">
+    <div class="container-fluid">
+      <header>
+        <div class="container">
+          <div class="col-md-3"><a href="../index.html" class="brand"><img alt="Your Alternative text" src="../images/logo.svg"></a></div>
+          <div class="col-md-6 text-center">
+            <div class="nav-trigger">
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+            </div>
+            <ul class="navigation">
+              <li><a href="#" class="active">Work</a>
+                <ul class="dropdown">
+                  <li><a href="../pages/charity.html">CHARITY</a></li>
+                  <li><a href="../pages/bread.html">BREADnCAKE</a></li>
+                  <li><a href="../pages/cp2017.html">COSCUP PASS 2017</a></li>
+                  <li><a href="../pages/c2017.html">COSCUP 2017</a></li>
+                    <li><a href="../pages/cp2016.html">COSCUP PASS 2016</a></li>
+                    <li><a href="../pages/orien.html">ORIEN Creative</a></li>
+                    <li><a href="../pages/ava.html">AVALOKITESVARA</a></li>
+                    <li><a href="../pages/vocal.html">VOCAL RECITAL</a></li>
+                </ul>
+              </li>
+                <!---
+              <li> <a href="../pages/about.html">About</a>
+              </li>
+               
+              <li> <a href="#">Blog</a>
+                <ul class="dropdown">
+                  <li><a href="pages/blog.html">Blog - Classic</a></li>
+                  <li><a href="pages/blog-no-images.html">Blog - No images</a></li>
+                  <li><a href="pages/blog-single.html">Single</a></li>
+                </ul>
+              </li>
+              <li> <a href="#">Contact</a>
+              </li>
+                -->
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <form>
+              <div class="search input-group">
+                <input type="text" placeholder="Search for..." class="form-control"><span class="input-group-btn">
+                  <button type="button" class="btn btn-default"><span class="ion-ios-search-strong"></span></button></span>
+              </div>
+            </form>
+          </div>
+        </div>
+      </header>
+      <section class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12" ><img src="../images/adr/header.jpg">
+                    </div>
+                <section>
+                     <!-- navigation -->
+                    <h2 class="col-md-12 text-center p-md">Navigation</h2>
+                    <!--nav-1-->
+                    <div class="col-md-12 mb-lg vcenter">
+                        <div class="col-md-9 col-sm-9" ><img src="../images/adr/bav-1-1.jpg">
+                        </div>
+                        <div class="col-md-3 col-sm-3 p-sm" style="align-self: flex-start;">
+                            <img src="../images/adr/nav-1-2.jpg" class="fadein"><BR/>
+                        <h4 class="underline">更接近符旨的圖示</h4>
+                        <p>導覽列最右項為使用者帳戶的設定與控制，原使用的圖示被規約為『More』，較難令使用者連結到相對應的印象。<BR/>
+                            -<BR/>
+                            將改為被規約成『Account』的圖示較容易辨別。</p>
+                        </div>
+                    </div>
+                    <!--nav-2-->
+                    <div class="col-md-12 mb-lg vcenter">
+                        <div class="col-md-3 col-sm-3 p-sm" style="align-self: flex-start;">
+                        <h4 class="underline">字彙一致性</h4>
+                        <h3>網站</h3>
+                        <p>工程師們開發時因沒有完整的 Spec ，所以在網站使用字彙的命名皆隨各自喜好，導致具同意義的詞卻有不同字串的字彙產生。除了網站統一性低外，也容易混淆使用者，無法在第一時間連結想法。<BR/>
+                            如：指廣告名稱則有 Name, Ad Account Name, Ad Account … 等多種寫法，同樣亦有 ID, Ad Account ID 等。<BR/>
+                            -<BR/>
+                            將整個網站會使用到的詞彙整理為一份 Spreadsheet 後，與 PM 進行討論，將詞彙進行修改、合併、刪除等規範。</p>
+                        </div>
+                        <div class="col-md-9 col-sm-9" ><img src="../images/adr/nav-2-1.jpg">
+                        </div>
+                    </div>
+                    <!--nav-3-->
+                    <div class="col-md-12 mb-lg vcenter mt-xl">
+                        <div class="col-md-3 col-sm-3 p-sm" style="align-self: flex-start;">
+                        <h3>導覽列上的文字</h3>
+                        <p>修改前的“Create Campaign”意指按下去即可新增一個 Campaign，為動詞。但導覽列上的其他項目，如：Dashboard, Report, Audience Manager, Optimization, Admin 皆為名詞。<BR/>
+                            -<BR/>
+                            將 “Create Campaign” 修改為 “Create”，使用者可從子項目選擇要新增的 Campaign 類型。(與新增 Campaign 步驟連動)</p>
+                        </div>
+                        <div class="col-md-9 col-sm-9" ><img src="../images/adr/nav-2-2.jpg">
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <h2 class="col-md-12 text-center p-md">Dashboard</h2>
+                    <div class="col-md-12 col-sm-12" ><img src="../images/adr/dash-ab.jpg" ></div>
+                    <!--dash-1-->
+                    <div class="col-md-12 mb-lg vcenter mt-xl">
+                        <div class="col-md-3 col-sm-3 p-sm" style="align-self: flex-start;">
+                            <h3>Broad overview</h3>
+                        <p>簡易曲線圖，使用者可以快速知曉資料的變化</p>
+                        </div>
+                        <div class="col-md-9 col-sm-9" ><img src="../images/adr/dash-1-1.jpg">
+                        </div>
+                    </div>
+                    <!--dash-2-->
+                    <div class="col-md-12 mb-lg vcenter mt-xl">
+                        <div class="col-md-3 col-sm-3 p-sm" style="align-self: flex-start;">
+                            <h3>Broad overview</h3>
+                        <p>簡易曲線圖，使用者可以快速知曉資料的變化</p>
+                        </div>
+                        <div class="col-md-9 col-sm-9" ><img src="../images/adr/dash-3-1.jpg">
+                        </div>
+                    </div>
+                    <!--dash-3-->
+                    <div class="col-md-12 mb-lg">
+                        <div class="col-md-3 col-sm-3 p-sm" style="align-self: flex-start;">
+                            <h3>表格</h3>
+                        <p>簡易曲線圖，使用者可以快速知曉資料的變化</p>
+                        </div>
+                        <div class="col-md-9 col-sm-9 p-sm" style="align-self: flex-start;">
+                        <div class="col-md-12 col-sm-12" ><img src="../images/adr/dash-2-3.jpg">
+                        </div>
+                        <div class="col-md-12 col-sm-12 ml-xl"  ><img src="../images/adr/gif/dash-1.gif">
+                            </div></div>
+                    </div>
+                </section>
+                <section>
+                    <h2 class="col-md-12 text-center p-md">Report</h2>
+                    <div class="col-md-12 col-sm-12" ><img src="../images/adr/report-ab.jpg" ></div>
+                    <!--dash-2-->
+                    <div class="col-md-12 mb-lg vcenter mt-xl">
+                        <div class="col-md-3 col-sm-3 p-sm" style="align-self: flex-start;">
+                            <h3>Broad overview</h3>
+                        <p>簡易曲線圖，使用者可以快速知曉資料的變化</p>
+                        </div>
+                        <div class="col-md-5 col-sm-5" ><img src="../images/adr/gif/chart-1.gif">
+                        </div>
+                        <div class="col-md-5 col-sm-5" ><img src="../images/adr/gif/chart-2.gif">
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <h2 class="col-md-12 text-center p-md">Create</h2>
+                    <div class="col-md-12 col-sm-12" ><img src="../images/adr/create-ab.jpg">
+                    </div>
+                    <div class="col-md-6 col-sm-6 p-sm" style="align-self: flex-start;">
+                            <h3>Create Campaign 步驟簡化</h3>
+                        <p>簡易曲線圖，使用者可以快速知曉資料的變化</p>
+                        </div>
+                    <div class="col-md-12 col-sm-12" ><img src="../images/adr/create-step.jpg">
+                    </div>
+                     <!--dash-2-->
+                    <div class="col-md-12 mb-lg vcenter mt-xl">
+                        <div class="col-md-3 col-sm-3 p-sm" style="align-self: flex-start;">
+                            <h3>Steppers 的表示</h3>
+                        <p>簡易曲線圖，使用者可以快速知曉資料的變化</p>
+                        </div>
+                        <div class="col-md-9 col-sm-9" ><img src="../images/adr/create-1-1.jpg">
+                        </div>
+                    </div>
+                </section>
+          </div>
+          <div class="row mt-xl">
+            <div class="col-md-6 col-md-offset-3">
+              <div class="pagination"><a href="../index.html" class="btn btn-default">Back</a></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="container">
+          <div class="row">
+            
+            <div class="col-md-12 text-center">
+              <ul class="social-links">
+                <li> <a href="https://dribbble.com/moomyiting" class="fa fa-dribbble" target="_blank"></a></li>
+                <li> <a href="https://www.instagram.com/moomyiting/" class="fa fa-instagram" target="_blank"></a></li>
+                <!--<li> <a href="https://dribbble.com/moomyiting" class="fa fa-twitter" target="_blank"></a></li>-->
+                <li> <a href="https://www.behance.net/moomyiting" class="fa fa-behance" target="_blank"></a></li>
+                <li> <a href="https://www.facebook.com/moomyiting" class="fa fa-facebook" target="_blank"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <footer class="bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">&copy; Estelle Chen, All rights reserved. </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="../js/assets/bootstrap.js"></script>
+    <script src="../js/assets/imagesloaded.pkgd.min.js"></script>
+    <script src="../js/assets/validation.js"></script>
+    <script src="../js/assets/packery.pkgd.min.js"></script>
+    <script src="../js/assets/velocity.min.js"></script>
+    <script src="../js/assets/typed.min.js"></script>
+    <script src="../modules/titan-slider/titan-slider.js"></script>
+    <script src="../modules/tera-lightbox/tera-lightbox.js"></script>
+    <script src="../js/assets/animsition.js"></script>
+    <script src="../js/functions.js"></script>
+  </body>
+</html>
