@@ -131,7 +131,7 @@ ul.navigation {
 
 ul.navigation li {
   padding: 0;
-  margin: 10px;
+  margin: 0;
   display: inline-block;
   position: relative;
 }
@@ -168,9 +168,17 @@ ul.navigation li ul.dropdown {
   transition: opacity .3s .3s, -webkit-transform .3s .3s;
   transition: opacity .3s .3s, transform .3s .3s;
   transition: opacity .3s .3s, transform .3s .3s, -webkit-transform .3s .3s;
-    background: #ffffff;
-    box-shadow: rgba(0,0,0,.1) 0 0 20px;
-    border-radius: 10px;
+}
+
+@media (min-width: 993px) {
+    ul.navigation li ul.dropdown {
+        background: #ffffff;
+        box-shadow: rgba(0,0,0,.1) 0 0 20px;
+        border-radius: 10px;
+    }
+    ul.navigation li{
+        margin: 10px;
+    }
 }
 
 ul.navigation li ul.dropdown li {
